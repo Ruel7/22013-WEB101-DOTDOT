@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css">
+   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="style.css">
+    <script src="https://kit.fontawesome.com/cd377d9d01.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">    
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div style="width:46px;height:46px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--accent-sage)">DR</div>
+        <div style="font-weight:700">DOTDOT, RUEL S.</div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="team.html">About Us</a>
+        <a href="copy.html">Contact</a>
+      </nav>
+      <div class="nav-avatar"><img src="Dotdot.png" alt="avatar"></div>
+    </header>
+
+   <section id="contact" class="section">
+  <h2>CONTACT ME</h2>
+  <div class="contact-cards">
+    <div class="contact-card">
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:rueldotdot9876">rueldotdot9876@gmail.com</a>
+    </div>
+    <div class="contact-card">
+      <i class="fa-brands fa-facebook"></i>
+      <a href="https://web.facebook.com/rueldotdot9876" target="_blank">Ruel Dotdot</a>
+    </div>
+    <div class="contact-card">
+      <i class="fa-brands fa-square-instagram"></i>
+      <a href="https://www.instagram.com/ilovejenmari/" target="_blank">ilovejenmari</a>
+    </div>
+  </div>
+</section>
+
+
+  </div>
+  
+
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const els = document.querySelectorAll('.fade-up');
+  els.forEach((el, i) => {
+    setTimeout(() => el.classList.add('visible'), 100 * (i + 1));
+  });
+});
+</script>
+
+</body>
+</html>
